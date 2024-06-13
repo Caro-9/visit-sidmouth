@@ -1,0 +1,64 @@
+/* CSS HEX */
+--desert-sand: #CBB09Eff;
+--cocoa-brown: #CA6B2Bff;
+--field-drab: #6D4E21ff;
+--beaver: #A68D7Dff;
+--slate-gray: #6B7485ff;
+
+body {
+    font-family: Roboto Slab, sans-serif;
+    font-weight: 400;
+}
+
+#header {
+    background-image: url("images/sidmouth.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+#main-title {
+    font-style: italic;
+    font-size: 60px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 40px 40px 20px 40px;
+    text-shadow: 2px 2px 2px grey;
+}
+
+#main-intro {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-left: 40px;
+    text-shadow: 2px 2px 2px grey;
+}
+
+#welcome-title {
+    margin: 50px 100px;
+    font-size: 40px;
+}
+
+#welcome-intro {
+    margin: 20px 100px 50px 100px;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+}
+
+#attractions {
+    display: flex;
+    justify-content: space-around;
+}
+
+.activity {
+    width: 450px;
+    padding: 20px;
+    text-align: center;
+    background: #CBB09E;
+    margin: 20px;
+}
